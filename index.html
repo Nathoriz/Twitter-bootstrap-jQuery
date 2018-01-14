@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/arafkarim/BootstrapPlusPlus/2d8d0b9d/bpp/bpp.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Twitter</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/arafkarim/BootstrapPlusPlus/2d8d0b9d/bpp/bpp.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark mt-2">
+  <nav class="navbar navbar-expand-lg navbar-dark mt-2 border border-top-0 border-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar5">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -34,7 +35,7 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
-            <button type="button" class="btn btn-outline-primary btn-circle"><i class="fa fa-user"></i></button>
+            <img class="rounded-circle img-user" src="assets/images/white-fox.jpg"></img>
           </a>
           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a>
@@ -46,16 +47,141 @@
           </div>
         </li>
         <li>
-          <button type="button" class="btn btn-rounded twitter white-text"> twitter</button>
+          <button type="button" class="btn btn-rounded twitter white-text">twitter</button>
         </li>
-        
-
       </ul>
     </div>
   </nav>
+  <section>
+    <div class="container padding-container">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="card card-testimonial text-center">
+            <div class="card-header bg-primary">
+              <img src="assets/images/white-fox.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <h4 class="card-title mt-5 mb-0">\(O-O)/</h4>
+              <p class="text-muted">@2333Zupay</p>
+              <hr>
+              <div class="row">
+                <div class="col-lg-4">
+                  <p class="mb-0">Post</p>
+                  <small class="text-muted">768</small>
+                </div>
+                <div class="col-lg-4">
+                  <p class="mb-0">Friends</p>
+                  <small class="text-muted">1280</small>
+                </div>
+                <div class="col-lg-4">
+                  <p class="mb-0">Follow</p>
+                  <small class="text-muted">392</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="col-lg-12 light-blue lighten-4 padding-twitter" id="spaceToComent">
+              <div class="row">
+                <div class="col-lg-2">
+                  <img class="col-lg-12 rounded-circle" src="assets/images/white-fox.jpg" alt="">
+                </div>
+                <div class="col-lg-10">
+                  <textarea class="border-primary rounded" id="whatYouThink" cols="58" rows="4" placeholder="¿Qué piensas?"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-2 offset-lg-2">
+                  <button type="button" class="btn btn-primary btn-rounded" id="tweet" disabled="false">TWITTEAR</button>
+                </div>
+                <div class="col-lg-2 offset-lg-6">
+                  <span class="btn btn-outline-primary btn-rounded white" id="words">140</span>
+                </div>
+              </div>
+            </div>
+            <!-- Estructura del comentario ↓ -->
+            <div class="col-lg-12 light-blue lighten-4 coments padding-twitter">
+              <div class="row">
+                <div class="col-lg-2">
+                  <img class="col-lg-12 rounded-circle" src="assets/images/white-fox.jpg" alt="">
+                </div>
+                <div class="col-lg-10 coment">
+                  <div class="col-lg-11 rounded white">
+                    <p>
+                      
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-7">
+                </div>
+                <div class="col-lg-auto">
+                  <span class="btn btn-outline-primary btn-rounded white">Publicado: <span></span> </span>
+                </div>
+              </div>
+            </div>
+            <!-- Estructura del comentario ↑ -->
+          </div>    
+        </div>
+        <div class="col-lg-3">
+          <div class="row padding-list-group"> 
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-user-follow rounded-circle" src="assets/images/bear.jpg" alt="">
+                </div>
+                <div class="col-lg-8">
+                  <div class="w-100 justify-content-between">
+                    <h5 class="mb-1">Diana Maria</h5>
+                    <span class="d-block orange-text">
+                      <button type="button" class="btn btn-outline-primary btn-rounded">Seguir</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-user-follow rounded-circle" src="assets/images/cat.jpg" alt="">
+                </div>
+                <div class="col-lg-8">
+                  <div class="w-100 justify-content-between">
+                    <h5 class="mb-1">Meena Doe</h5>
+                    <span class="d-block orange-text">
+                      <button type="button" class="btn btn-outline-primary btn-rounded">Seguir</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+              <div class="row">
+                <div class="col-lg-4">
+                  <img class="img-user-follow rounded-circle" src="assets/images/unicorn.jpg" alt="">
+                </div>
+                <div class="col-lg-8">
+                  <div class="w-100 justify-content-between">
+                    <h5 class="mb-1">Jonson Huze</h5>
+                    <span class="d-block orange-text">
+                      <button type="button" class="btn btn-outline-primary btn-rounded">Seguir</button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="https://use.fontawesome.com/585d303aa0.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="vendors/wickedpicker/js/wickedpicker.min.js"></script>
+  
+  <script src="js/app.js"></script>
 </body>
 </html>

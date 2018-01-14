@@ -2,3 +2,31 @@
   margin: 0;
   padding: 0;
 }
+
+.padding-container {
+  padding-top: 25px;
+}
+
+.img-user {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.padding-twitter {
+  padding: 20px 7px 20px 7px;
+}
+
+textarea {
+  resize: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.padding-list-group {
+  padding: 0 15px 0 15px;
+}
+
+.img-user-follow {
+  width: 4em;
+  height: 4em;
+}
