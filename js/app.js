@@ -49,6 +49,5 @@ $(document).ready(function() {
       $tweetButton.attr('disabled', 'true');
     }  
   });
-
   
 });
