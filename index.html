@@ -89,40 +89,22 @@
                   <img class="col-lg-12 rounded-circle" src="assets/images/white-fox.jpg" alt="">
                 </div>
                 <div class="col-lg-10">
-                  <textarea class="border-primary rounded" id="whatYouThink" cols="58" rows="4" placeholder="¿Qué piensas?"></textarea>
+                  <textarea class="col-lg-12 border-primary rounded" id="whatYouThink" rows="4" placeholder="¿Qué piensas?"></textarea>
                 </div>
               </div>
               <div class="row">
-                <div class="col-lg-2 offset-lg-2">
-                  <button type="button" class="btn btn-primary btn-rounded" id="tweet" disabled="false">TWITTEAR</button>
+                <div class="col-lg-3 offset-lg-2">
+                  <button type="button" class="btn btn-primary btn-rounded" disabled='true' id="tweet">TWITTEAR</button>
                 </div>
-                <div class="col-lg-2 offset-lg-6">
+                <div class="col-lg-2 offset-lg-5">
                   <span class="btn btn-outline-primary btn-rounded white" id="words">140</span>
                 </div>
               </div>
             </div>
             <!-- Estructura del comentario ↓ -->
-            <div class="col-lg-12 light-blue lighten-4 coments padding-twitter">
-              <div class="row">
-                <div class="col-lg-2">
-                  <img class="col-lg-12 rounded-circle" src="assets/images/white-fox.jpg" alt="">
-                </div>
-                <div class="col-lg-10 coment">
-                  <div class="col-lg-11 rounded white">
-                    <p>
-                      
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-7">
-                </div>
-                <div class="col-lg-auto">
-                  <span class="btn btn-outline-primary btn-rounded white">Publicado: <span></span> </span>
-                </div>
-              </div>
-            </div>
+            <div id="container-coments">
+             
+            </div>  
             <!-- Estructura del comentario ↑ -->
           </div>    
         </div>
@@ -180,8 +162,6 @@
   </section>
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="https://use.fontawesome.com/585d303aa0.js"></script>
-  <script src="vendors/wickedpicker/js/wickedpicker.min.js"></script>
-  
   <script src="js/app.js"></script>
 </body>
 </html>

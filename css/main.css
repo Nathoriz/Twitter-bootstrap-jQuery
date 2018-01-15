@@ -13,7 +13,7 @@
 }
 
 .padding-twitter {
-  padding: 20px 7px 20px 7px;
+  padding: 15px 15px 15px 15px;
 }
 
 textarea {
@@ -29,4 +29,12 @@ textarea {
 .img-user-follow {
   width: 4em;
   height: 4em;
+}
+
+.myComent {
+  word-wrap: break-word !important;
+}
+
+.mrg-btn {
+  margin-top: 15px;
 }
