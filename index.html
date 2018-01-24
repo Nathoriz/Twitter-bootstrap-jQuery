@@ -53,9 +53,9 @@
     </div>
   </nav>
   <section>
-    <div class="container padding-container">
+    <div class="container pt-4">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-xl-auto col-lg-3 col-md-3 d-none d-md-inline-flex d-lg-inline-flex">
           <div class="card card-testimonial text-center">
             <div class="card-header bg-primary">
               <img src="assets/images/white-fox.jpg" alt="Card image cap">
@@ -65,15 +65,15 @@
               <p class="text-muted">@2333Zupay</p>
               <hr>
               <div class="row">
-                <div class="col-lg-4">
+                <div class="col-lg-auto">
                   <p class="mb-0">Post</p>
                   <small class="text-muted">768</small>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-auto">
                   <p class="mb-0">Friends</p>
                   <small class="text-muted">1280</small>
                 </div>
-                <div class="col-lg-4">
+                <div class="col-lg-auto">
                   <p class="mb-0">Follow</p>
                   <small class="text-muted">392</small>
                 </div>
@@ -81,35 +81,35 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6">
-          <div class="row">
-            <div class="col-lg-12 light-blue lighten-4 padding-twitter" id="spaceToComent">
+        <div class="col-xl-6 col-lg-6 col-md-6 d-lg-inline-flex">
+          <div class="row pr-3 pl-3">
+            <div class="col-12 light-blue lighten-4 p-3" id="spaceToComent">
               <div class="row">
-                <div class="col-lg-2">
-                  <img class="col-lg-12 rounded-circle" src="assets/images/white-fox.jpg" alt="">
+                <div class="col-xl-2 col-lg-3 col-md-3 col-sm-2 col-4">
+                  <img class="col-12 rounded-circle" src="assets/images/white-fox.jpg" alt="">
                 </div>
-                <div class="col-lg-10">
-                  <textarea class="col-lg-12 border-primary rounded" id="whatYouThink" rows="4" placeholder="¿Qué piensas?"></textarea>
+                <div class="col-xl-10 col-lg-9 col-md-9 col-sm-10 col-8">
+                  <textarea class="col-12  border-primary rounded" id="whatYouThink" rows="4" placeholder="¿Qué piensas?"></textarea>
                 </div>
               </div>
-              <div class="row">
-                <div class="col-lg-3 offset-lg-2">
+              <div class="row justify-content-between mt-2 mb-1">
+                <div class="col-auto">
                   <button type="button" class="btn btn-primary btn-rounded" disabled='true' id="tweet">TWITTEAR</button>
                 </div>
-                <div class="col-lg-2 offset-lg-5">
+                <div class="col-auto">
                   <span class="btn btn-outline-primary btn-rounded white" id="words">140</span>
                 </div>
               </div>
             </div>
             <!-- Estructura del comentario ↓ -->
-            <div id="container-coments">
+            <div class="col-12 no-gutters" id="container-coments">
              
             </div>  
             <!-- Estructura del comentario ↑ -->
           </div>    
         </div>
-        <div class="col-lg-3">
-          <div class="row padding-list-group"> 
+        <div class="col-xl-3 col-lg-3 col-md-3 d-none d-md-inline-flex d-lg-inline-flex">
+          <div class="row pr-1 pl-1 justify-content-center"> 
             <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="row">
                 <div class="col-lg-4">
@@ -161,6 +161,8 @@
     </div>
   </section>
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
   <script src="https://use.fontawesome.com/585d303aa0.js"></script>
   <script src="js/app.js"></script>
 </body>
